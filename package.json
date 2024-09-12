@@ -1,0 +1,46 @@
+{
+	"name": "timothy",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+	  "test": "echo \"Error: no test specified\" && exit 1",
+	  "start": "node ./src/index.ts",
+	  "dev": "nodemon ./src/index.ts",
+	  "run": "tsx ./src/index.ts"
+	},
+	"keywords": [],
+	"repository": {
+	  "type": "git",
+	  "url": "git+https://github.com/mathislajs/crypto-viewer"
+	},
+	"author": "",
+	"license": "ISC",
+	"homepage": "https://github.com/mathislajs/crypto-viewer",
+	"dependencies": {
+	  "@discordjs/builders": "^1.8.2",
+	  "@vercel/node": "^3.2.8",
+	  "axios": "^1.7.4",
+	  "discord.js": "^14.15.3",
+	  "dotenv": "^16.4.5",
+	  "fs": "0.0.1-security",
+	  "noblox": "^4.8.5",
+	  "noblox.js": "^5.0.1",
+	  "nodemon": "^3.1.4",
+	  "path": "^0.12.7",
+	  "sheweny": "^4.2.1",
+	  "ts-node": "^10.9.2",
+	  "undici": "^6.19.7"
+	},
+	"devDependencies": {
+	  "@types/axios": "^0.14.0",
+	  "@types/node": "^22.4.0",
+	  "@typescript-eslint/eslint-plugin": "^8.1.0",
+	  "@typescript-eslint/parser": "^8.1.0",
+	  "eslint": "^9.9.0",
+	  "tsup": "^8.2.4",
+	  "tsx": "^4.17.0",
+	  "typescript": "^5.5.4"
+	}
+  }
+  
